@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AndréBarberShop</title>
+
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-logo">
+        ✂ AndréBarber
+      </div>
+
+      <ul class="navbar-menu" id="menu">
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#pricing">Preços</a></li>
+        <li><a href="#gallery">Galeria</a></li>
+        <li><a href="#feedback">Feedbacks</a></li>
+        <li><a href="#contacts">Contato</a></li>
+        
+      </ul>
+
+      <div class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false" role="button" tabindex="0">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="about">
+    <div class="sobre-container">
+      <div class="sobre-texto">
+        <h2>Sobre a Barbearia</h2>
+        <p>
+          Fundada com paixão pela tradição, nossa barbearia oferece mais do que apenas cortes de cabelo – oferecemos uma experiência.
+          Aqui, cada cliente é tratado com cuidado, respeito e estilo. Com anos de experiência, buscamos sempre unir o clássico ao moderno.
+        </p>
+        <p>
+          Venha viver o verdadeiro ritual do cuidado masculino. Ambiente acolhedor, barbeiros especializados e aquela conversa boa garantida.
+        </p>
+      </div>
+      <div class="sobre-imagem">
+        <img src="barbearia.jpeg" alt="Imagem da Barbearia">
+      </div>
+    </div>
+  </section>
+
+  <section class="servicos" id="services">
+  <h2 class="titulo-servicos">Nossos Serviços</h2>
+  <div class="servicos-container">
+    <div class="servico">
+      <img src="corte.jpeg" alt="Corte Clássico">
+      <h3>Corte degradê</h3>
+      <p>Um corte tradicional, perfeito para quem valoriza elegância e estilo atemporal.</p>
+    </div>
+
+    <div class="servico">
+      <img src="cortebarba.jpeg" alt="Barba Modelada">
+      <h3>Cabelo e barba</h3>
+      <p>Barba desenhada com precisão, finalizada com toalha quente e produtos premium.</p>
+    </div>
+
+    <div class="servico">
+      <img src="kids.jpeg" alt="Combo Premium">
+    <h3>Kids</h3>
+    <p>Corte especial para crianças, com atenção ao conforto e estilo dos pequenos.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <h2 style="margin-bottom: 16px;">Tabela de Preços</h2>
+        <table style="border-collapse: collapse; min-width: 320px; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.07);">
+            <thead>
+                <tr style="background: #222; color: #fff;">
+                    <th style="padding: 12px 24px; text-align: left;">Serviço</th>
+                    <th style="padding: 12px 24px; text-align: right;">Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding: 10px 24px; border-bottom: 1px solid #eee;">Corte Masculino</td>
+                    <td style="padding: 10px 24px; text-align: right; border-bottom: 1px solid #eee;">R$ 35,00</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px 24px; border-bottom: 1px solid #eee;">Corte + Barba</td>
+                    <td style="padding: 10px 24px; text-align: right; border-bottom: 1px solid #eee;">R$ 50,00</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px 24px; border-bottom: 1px solid #eee;">Barba</td>
+                    <td style="padding: 10px 24px; text-align: right; border-bottom: 1px solid #eee;">R$ 25,00</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px 24px; border-bottom: 1px solid #eee;">Corte Infantil</td>
+                    <td style="padding: 10px 24px; text-align: right; border-bottom: 1px solid #eee;">R$ 30,00</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px 24px;">Sobrancelha</td>
+                    <td style="padding: 10px 24px; text-align: right;">R$ 10,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+    
+</section>
+<section class="galeria" id="gallery">
+<h2 class="titulo-galeria">Galeria</h2>
+<div class="galeria-grid">
+    <a href="https://www.instagram.com/p/DKuMxJ3A5sU/" target="_blank" rel="noopener">
+        <img src="galeria1.jpeg" alt="Foto 1">
+    </a>
+    <a href="https://www.instagram.com/p/DLXdaY6gJ8Q/" target="_blank" rel="noopener">
+        <img src="galeria2.jpeg" alt="Foto 2">
+    </a>
+    <a href="https://www.instagram.com/p/DLAPRCQAc7-/" target="_blank" rel="noopener">
+        <img src="galeria3.jpeg" alt="Foto 3">
+    </a>
+    <a href="https://www.instagram.com/p/DK4hMnNAC0e/" target="_blank" rel="noopener">
+        <img src="galeria4.jpeg" alt="Foto 4">
+    </a>
+    <a href="https://www.instagram.com/p/DK2CyF8gn4P/" target="_blank" rel="noopener">
+        <img src="galeria5.jpeg" alt="Foto 5">
+    </a>
+    <a href="https://www.instagram.com/p/DKzhetaA8gR/" target="_blank" rel="noopener">
+        <img src="galeria6.jpeg" alt="Foto 6">
+    </a>
+</div>
+</section>
+
+<section class="feedback" id="feedback">
+<h2 class="titulo-feedback" style="text-align: center;">Feedbacks</h2>
+  <div class="feedback-container">
+    <div class="feedback-item">
+      <p>"Melhor barbearia da cidade! Atendimento excelente e sempre saio satisfeito com o corte."</p>
+      <p><strong>João Silva</strong></p>
+    </div>
+    <div class="feedback-item">
+      <p>"Ambiente acolhedor e profissional super qualificado. Recomendo a todos!"</p>
+      <p><strong>Guilherme Reis</strong></p>
+    </div>
+    <div class="feedback-item">
+      <p>"Cortes incríveis e um atendimento que faz você se sentir em casa. Nota 10!"</p>
+      <p><strong>Carlos Pereira</strong></p>
+    </div>
+  </div> 
+</section>
+
+<section>
+<section class="contatos" id="contacts">
+  <h2 class="titulo-contato">Entre em Contato</h2>
+  
+  <div class="contato-container">
+    
+    <div class="contato-info">
+    <p>
+      <a href="https://www.google.com/maps/search/?api=1&query=Rua+Ana+Maria+da+Concei%C3%A7%C3%A3o+de+Jesus,+Mois%C3%A9s+gomes+-+N%C2%BA+132,+ao+lado+de+Ana+do+lanche" target="_blank" rel="noopener">
+        Rua Ana Maria da Conceição de Jesus, Moisés gomes - Nº 132, ao lado de Ana do lanche
+      </a>
+    </p><a href="https://www.instagram.com/andrebarbershop" target="_blank" rel="noopener">
+        <i class="fab fa-instagram"></i> @_andrebarbeiro
+        </a>
+      <p> (79) 99999-9999</p>
+      <p> contato@andrebarber.com</p>
+      <p> Seg - Sáb: 8h às 17h</p>
+      
+    </div>
+
+    
+  </div>
+</section>
+
+
+</section>
+  <!-- SCRIPT MENU MOBILE -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('menu');
+
+    hamburger.addEventListener('click', () => {
+      const isShown = menu.classList.toggle('show');
+      hamburger.setAttribute('aria-expanded', isShown);
+    });
+
+    // Fechar o menu ao clicar em um link
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (menu.classList.contains('show')) {
+          menu.classList.remove('show');
+          hamburger.setAttribute('aria-expanded', false);
+        }
+      });
+    });
+  </script>
+  <a href="https://wa.me/5579996583969?text=Olá!%20Gostaria%20de%20agendar%20um%20horário%20com%20a%20barbearia." 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Fale conosco no WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+
+</a>
+
+</body>
+</html>
